@@ -1,0 +1,8 @@
+// 一些常用的使用方法,简单举例
+NSString *jsonObjectString = [GTMBase64 encodeBytes:transaction.transactionReceipt.bytes length:transaction.transactionReceipt.length];
+
+NSString *jsonObjectString1 = [GTMBase64 stringByEncodingData:transaction.transactionReceipt];
+NSString *strTest = [[NSString alloc] initWithData:[GTMBase64 encodeData:jsonObjectString1]
+                                          encoding:NSUTF8StringEncoding];
+                                          
+NSString * test1 = [data base64EncodedStringWithOptions:NSDataBase64EncodingEndLineWithLineFeed];                                          
