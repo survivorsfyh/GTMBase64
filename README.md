@@ -4,6 +4,7 @@ GTMBase64
 Base64加解密
 
 使用方法：
+
 1）丢入ios项目。
 【注意】开启ARC的同学注意
 解决方法：-fno-objc-arc
